@@ -6,7 +6,6 @@ PATH
       ice_cube (>= 0.11)
       jquery-rails (>= 3.0)
       rails (>= 3.2)
-      sass-rails (>= 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -44,12 +43,14 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    concurrent-ruby (1.1.10)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    execjs (2.7.0)
+    execjs (2.8.1)
     hike (1.2.3)
-    i18n (0.7.0)
-    ice_cube (0.16.2)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    ice_cube (0.16.4)
     jquery-rails (3.1.2)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
